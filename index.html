@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <title>JQ Practice</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <h2>1.to hide</h2>
+        <div class="selector selector2 sm">
+        <h2 id="sel1" class="text-center">Hello, world!</h2>
+        </div>
+        <button id="dem1" class="btn btn-dark">Hide</button>
+        <h2>2. to show </h2>
+        <button id="dem2" class="btn btn-dark">Show</button>
+        <h2>3. Hide and Show at the same time with one button </h2>
+        <button id="dem3" class="btn btn-dark">Hide & Show</button>
+        <div class="selector">
+        <h2 class="text-center sel4" id="sel4">Hover effect</h2>
+        </div>
+        <h2>4. Hover hide</h2>
+        <button id="dem4">Hover to hide</button>
+        <h2>5. Hover Show</h2>
+        <button id="dem5">Hover to show</button>
+        <h2>6. Hover show and hide</h2>
+        <button id="dem6">Hover to show & hide</button>
+        <h2>7. Use of 'this' as a selector:</h2>
+        <button id="dem7">Click to hide me</button>
+        <p>'this' is selector which works to call itself</p>
+        <h2>8. Hiding multiple p with same class:</h2>
+        <div class="selector2 sm">
+        <p class="trial1">Class name of this line is trial1</p>
+        <p class="trial2">Class name of this line is trial2</p>
+        <p class="trial1">Class name of this line is trial1</p>
+        </div>
+        <p>Now take a close look, trial1 class will be vanished</p>
+        <button id="dem8">Click to hide same class</button>
+        <h2>9. Now I wanna show 1st line:</h2>
+        <button id="dem9">Click to show</button>
+        <h2>10. Hiding first list of ul by (ul li:first)</h2>
+        <ul class="selector2 sm">
+          <li>Shaon</li>
+          <li>Habib</li>
+          <li>Mugdho</li>
+          <li>Onas</li>
+        </ul>
+        <ul class="selector2 sm">
+          <li>Shaon</li>
+          <li>Habib</li>
+          <li>Mugdho</li>
+          <li>Onas</li>
+        </ul>
+        <ul class="selector2 sm">
+          <li>Shaon</li>
+          <li>Habib</li>
+          <li>Mugdho</li>
+          <li>Onas</li>
+        </ul>
+        <button id="dem10">Hide 1st name</button>
+        <h2>11. Now hiding all the 1st name of every ul by (ul li:first-child)</h2>
+        <button id="dem11">Hide all</button>
+        <h2>12. Hiding links</h2>
+        <p class="selector" style="background-color: white;"><a href="https://www.facebook.com/onasahmed31">My facebook profile </a></p>
+        <button id="dem12">click here to remove the link</button>
+        <p>To call href selector use '[...]' third bracket</p>
+        <h2>13. Hiding links that has target attribute</h2>
+        <p>This link has a target attribute: <a href="https://www.facebook.com/onasahmed31" target="_blank">It will open in another tab</a> </p>
+        <p>This link doesn't contain target attribute: <a href="https://www.facebook.com/onasahmed31">It will open in this tab</a> </p>
+        <button id="dem13">Hide the link that'll open in another tab</button>
+        <h2>14. Self Kick</h2>
+        <button id="dem14">Don't Touch Me</button>
+        <h2>15. Table's selector</h2>
+         <table border="1">
+            <tr>
+              <th>Company</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <td>Berglunds snabbköp</td>
+              <td>Sweden</td>
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Mexico</td>
+            </tr>
+            <tr>
+              <td>Ernst Handel</td>
+              <td>Austria</td>
+            </tr>
+            <tr>
+              <td>Island Trading</td>
+              <td>UK</td>
+            </tr>
+          </table>  
+          <button id="dem15">click the button to identify odd number of rows</button>
+          <h2>16. Click the button to mark even rows</h2>   
+          <button id="dem16">Even</button> 
+          <h2>17. Event: mouseenter</h2>
+          <p id="dem17">Put your mouse cursor here on the text</p>   
+          <h2>18. Event: mouseleave</h2>
+          <p id="dem18">Put your mouse cursor here on the text & then leave</p> 
+          <h2>19. Event: mousedown</h2>
+          <p id="dem19">Put your mouse cursor here up on the text </p> 
+          <h2>20. Event: mouseup</h2>
+          <p id="dem20">Put your mouse cursor here down on the text </p>  
+          <h2>21,22. event: focus & blur</h2>
+          Name: <input type="text" name="">  Age: <input type="number" name="">
+          <h2>23. Use of 'on'</h2>
+          <p id="dem23" class="selector2">It will change color if you enter your mouse and then move around it and it'll change it's color if you click on the text too!!!</p>
+          <p>To call multiple function at one time we can use 'On'</p>
+          <p>24. Using 'on' even for single function</p>
+          <button id="dem24">Hide</button>
+          <h2>25. Use of fade out:</h2>
+          <div class="selector3">
+          <img src="images/1.jpg" class="fout">
+          <img src="images/2.jpg" class="fout">
+          <img src="images/3.jpg" class="fout">
+          </div>
+          <button id="dem25">Fade out</button>
+          <h2>26. Fade in</h2>
+          <button id="dem26">Fade In</button>
+          <h2>27. We can set the duration of fading by using parameter:</h2>
+          <button id="dem27">Slow fade out</button>
+          <button id="dem28">Fast fade in</button>
+          <h2>29. Fade in & out with one button</h2>
+          <button id="dem29">In & out</button>
+          <h2>30. Setting the time duration of fading for 5sec</h2>
+          <button id="dem30">5s</button>
+          <h2>31. Opacity maintain</h2>
+          <button id="dem31">Opacity</button>
+          <p>Must add the fading motion (slow or fast) in parameter </p>
+          <h2>32. Slide Down:</h2>
+          <button id="dem32" class="text-center">Ismam Ahmed</button>
+          <p id="sel32" class="text-center">Onas</p>
+          <h2>33. Slide Up:</h2>
+          <button id="dem33">Click</button>
+          <h2>34. Slide Toggle:</h2>
+          <button id="dem34">toggle slide</button>
+          <h2>35. Stop function</h2>
+          <p id="dem35">I hate Bangladesh Cricket Team</p>
+          <p id="sel35" class="selector2 text-center">& I love Australian Cricket Team uwu</p>
+          <button id="stop35">Stop the count</button>
+          <h2>36. Multiple Use of animation</h2>
+          <div class="pos">
+          <div id='demt'>
+           <p>content</p>
+          </div>
+        </div>
+          <button id="dem36">The box will Run</button>
+          <button id="dem37">Big box and opacity low</button>
+          <button id="dem38">Increase Flexibility</button>
+          <h2>39. toggle animation</h2>
+          <button id="dem39">toggle height</button>
+          <h2>40. Animation</h2>
+          <div class='pos'>
+            <div class="dem_40">
+          <button id="dem40">Animate</button>
+        </div>
+        </div>
+        <h2 id="dem41">41. Callback</h2>
+        <button class="sel41">Tap again</button>
+
+      </div>
+    </section>
+
+   
+
+    
+    <!-- JS links -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>

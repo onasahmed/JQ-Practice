@@ -1,0 +1,45 @@
+.selector{
+	height: 50px;
+	background-color: red;
+
+}
+.selector2{
+	height: 100px;
+	display: block;
+}
+.sm{
+	margin: 30px 0;
+}
+.selector3{
+	height: 320px;
+}
+#dem32 , #dem35{
+ width: 100%;
+ background-color: limegreen;
+ padding: 10px;
+
+}
+#sel32 , #sel35{
+width: 100%;
+background-color: pink;
+padding: 60px 0;
+display: none;
+}
+#demt{
+	width: 50px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	overflow: hidden;
+}
+.pos{
+	position: relative;
+	height: 100px;
+	display: block;
+}
+.dem_40{
+	width: 50px;
+	height: 50px;
+	background-color: Black;
+	position: relative;
+}
